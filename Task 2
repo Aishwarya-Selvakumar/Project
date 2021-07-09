@@ -1,0 +1,15 @@
+package practice;
+import java.util.Scanner;
+
+public class Task {
+    public static void main(String[] args){
+        Scanner input = new Scanner(System.in);
+        System.out.println("Enter the Minutes");
+        int minutes = input.nextInt();
+
+        int years = minutes / 525600;
+        int days = minutes / 1440;
+        System.out.println(minutes + "minutes is" + years+ "years and" + days + "days");
+
+    }
+}
