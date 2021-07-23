@@ -1,0 +1,26 @@
+package practice;
+
+public class ObjectsClasses {
+    public static void main(String[] args){
+        information p1=new information();
+        p1.name="Robert";
+        p1.year_of_joining = 1994;
+        p1.Address="64C- WallsStreat";
+        information p2=new information();
+        p2.name="Sam";
+        p2.year_of_joining = 2000;
+        p2.Address="68D- WallsStreat";
+        information p3=new information();
+        p3.name="John";
+        p3.year_of_joining = 1999;
+        p3.Address="26B- WallsStreat";
+        System.out.println("Name    "+"Year of Joining  "+ "Address" );
+        System.out.println(p1.name+"    "    +p1.year_of_joining+"        "  + p1.Address );
+        System.out.println(p2.name+"       "    +p2.year_of_joining+"        "  + p2.Address );
+        System.out.println(p3.name+"      "    +p3.year_of_joining+"        "  + p3.Address );
+    }
+}
+class information{
+    String name, Address;
+    int year_of_joining;;
+}
